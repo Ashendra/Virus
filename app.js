@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
-console.log("a");
+console.log("Game Started") ;
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(req, res){
@@ -44,7 +44,7 @@ io.on('connection', function (socket) {
 
 setInterval(function () {
   tagged = false;
-}, 3000);
+}, 1000);
 
 server.listen(8080);
 console.log("Multiplayer app listening on port 80");

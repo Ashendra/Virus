@@ -1,13 +1,13 @@
 {
   "repository": {
     "type": "git",
-    "url": "git@github.com:mliu95/quintus-tag.git"
+    "url": "git@github.com:Ashendra/Virus.git"
   },
-  "name": "quintus-tag",
-  "author": "Michael Liu",
+  "name": "GOT",
+  "author": "Animesh Das",
   "version": "0.0.1",
   "dependencies": {
-    "express": "^4.6.1",
-    "socket.io": "^1.0.6"
+    "express": "^4.12.4",
+    "socket.io": "^1.3.5"
   }
 }
